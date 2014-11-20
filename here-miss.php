@@ -4,8 +4,8 @@ $iev = false;
 $isie = false;
 $dnt = false;
 $ua = window.navigator.userAgent;
-if ( !isset($respect_ie) ) {
-	$respect_ie = false;
+if ( !isset($respectIE) ) {
+	$respectIE = false;
 }
 
 // >= 11 (Majority)
@@ -22,7 +22,7 @@ if ( strrpos($ua, 'Trident/') !== false ) {
 
 	// No detection of 0 - 4
 	// Rarely used.
-	
+
 }
 
 // If is IE, mark it as so.
@@ -38,7 +38,7 @@ if (
 		// AND you are not using IE 10 or later
 		$iev < 10 ||
 		// OR we were asked to respect it
-		$respect_ie
+		$respectIE
 	)
 ) {
 	$dnt = true;

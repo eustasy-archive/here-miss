@@ -2,8 +2,8 @@ var iev = false;
 var isie = false;
 var dnt = false;
 var ua = window.navigator.userAgent;
-if ( typeof respect_ie == 'undefined' ) {
-	respect_ie = false;
+if ( typeof respectIE === 'undefined' ) {
+	respectIE = false;
 }
 
 // >= 11 (Majority)
@@ -25,7 +25,7 @@ if ( ua.indexOf('Trident/') > -1 ) {
 
 // If is IE, mark it as so.
 if ( iev ) {
-	var isie = true;
+	isie = true;
 }
 
 if (
@@ -38,7 +38,7 @@ if (
 		// AND you are not using IE 10 or later
 		iev < 10 ||
 		// OR we were asked to respect it
-		respect_ie
+		respectIE
 	)
 ) {
 	dnt = true;
