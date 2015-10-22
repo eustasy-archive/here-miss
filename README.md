@@ -17,8 +17,3 @@ A boolean value to check if this is Internet Explorer.
 A boolean value that states whether the DoNotTrack header was set.
 ##### trackme = bool(true)
 A boolean value that states whether the user allows tracking.
-
-### To do
-* Improve here-miss.js.html
-* Add here-miss.example.php
-* Add here-miss.py and here-miss.example.py
