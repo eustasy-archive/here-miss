@@ -1,6 +1,6 @@
 ////	Here, Miss.
 // An DoNotTrack detection script that ignores settings done automatically.
-// Copyright 2015 eustasy UK Ltd - MIT Licensed
+// Copyright 2016 eustasy UK Ltd - MIT Licensed
 //
 ////	Inputs
 //
