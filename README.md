@@ -17,3 +17,12 @@ A boolean value to check if this is Internet Explorer.
 A boolean value that states whether the DoNotTrack header was set.
 ##### trackme = bool(true)
 A boolean value that states whether the user allows tracking.
+
+### Strings
+#### Internet Explorer
+##### Internet Explorer 11
+`Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko`
+##### Internet Explorer 10
+`Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)`
+##### Internet Explorer 7
+`Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; Trident/7.0; .NET4.0E; .NET4.0C)`
