@@ -22,23 +22,23 @@
 // trackme = bool(true)
 // A boolean value that states whether the user allows tracking.
 
-var iev = false;
-var isie = false;
-var dnt = false;
-var ua = window.navigator.userAgent;
+var iev = false
+var isie = false
+var dnt = false
+var ua = window.navigator.userAgent
 if ( typeof respectIE === 'undefined' ) {
-	respectIE = false;
+	respectIE = false
 }
 
 // 5 - 10
-var msie = ua.indexOf('MSIE ');
+var msie = ua.indexOf('MSIE ')
 if ( msie > -1 ) {
-	iev = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+	iev = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10)
 
 // >= 11 (Majority)
 } else if ( ua.indexOf('Trident/') > -1 ) {
-	var rv = ua.indexOf('rv:');
-	iev = parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+	var rv = ua.indexOf('rv:')
+	iev = parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10)
 }
 
 // No detection of 0 - 4
@@ -46,7 +46,7 @@ if ( msie > -1 ) {
 
 // If is IE, mark it as so.
 if ( iev ) {
-	isie = true;
+	isie = true
 }
 
 if (
