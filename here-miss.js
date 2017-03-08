@@ -62,7 +62,7 @@ if (
 		respectIE
 	)
 ) {
-	dnt = true;
+	dnt = true
 }
 
-var trackme = !dnt;
+var trackme = !dnt
