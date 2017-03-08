@@ -22,7 +22,7 @@
 // trackme = bool(true)
 // A boolean value that states whether the user allows tracking.
 
-/* eslint-disable no-unused-vars no-undef */
+/* eslint-disable no-unused-vars, no-undef */
 
 var iev = false
 var isie = false
