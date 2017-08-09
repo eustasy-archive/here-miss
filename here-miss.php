@@ -42,7 +42,7 @@ if ( $msie !== false ) {
 	$iev = intval(substr($ua, ($msie + 5), strrpos($ua, '.', $msie)));
 
 // >= 11 (Majority)
-} else if ( strrpos($ua, 'Trident/') !== false ) {
+} elseif ( strrpos($ua, 'Trident/') !== false ) {
 	$rv = strrpos($ua, 'rv:');
 	$iev = intval(substr($ua, ($rv + 3), strrpos($ua, '.', $rv)));
 }
