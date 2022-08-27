@@ -1,7 +1,7 @@
 Here, Miss.
 ==========
 
-[![Build Status](https://travis-ci.org/eustasy/here-miss.svg?branch=master)](https://travis-ci.org/eustasy/here-miss)
+[![Normal](https://github.com/eustasy/here-miss/actions/workflows/normal.yml/badge.svg)](https://github.com/eustasy/here-miss/actions/workflows/normal.yml)
 [![Code Climate](https://codeclimate.com/github/eustasy/here-miss/badges/gpa.svg)](https://codeclimate.com/github/eustasy/here-miss)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/eustasy/here-miss/badge?style=rounded)](https://www.jsdelivr.com/package/gh/eustasy/here-miss)
 
